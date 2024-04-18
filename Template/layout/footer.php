@@ -57,7 +57,7 @@
 			'TaskCancellationController', 
 			'cancel', 
 			array(
-				'plugin' => 'Instantactions', 
+				'plugin' => 'InstantActions', 
 				'task_id' => $task['id'], 
 				'project_id' => $task['project_id']
 			)

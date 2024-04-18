@@ -1,5 +1,5 @@
 <?php
-namespace Kanboard\Plugin\Instantactions\Controller;
+namespace Kanboard\Plugin\InstantActions\Controller;
 use Kanboard\Controller\BaseController;
 
 /**
@@ -57,7 +57,7 @@ class InstaSettingsController extends BaseController
 	
 
 
-        $this->response->html($this->helper->layout->project('Instantactions:settings', array(
+        $this->response->html($this->helper->layout->project('InstantActions:settings', array(
 	//$this->response->html($this->helper->layout->project('project_edit/show', array(
 
             'owners' => $this->projectUserRoleModel->getAssignableUsersList($project['id'], true),

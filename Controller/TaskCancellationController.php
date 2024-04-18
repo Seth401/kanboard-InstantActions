@@ -1,6 +1,6 @@
 <?php
 //namespace Kanboard\Controller;
-namespace Kanboard\Plugin\Instantactions\Controller;
+namespace Kanboard\Plugin\InstantActions\Controller;
 use Kanboard\Controller\BaseController;
 use Kanboard\Core\Controller\AccessForbiddenException;
 use Kanboard\Model\TaskModel;
@@ -13,7 +13,7 @@ class TaskCancellationController extends BaseController
     public function cancel()
     {
 	$method = "asd";
-	$template = 'Instantactions:cancel';
+	$template = 'InstantActions:cancel';
 	$success_message = 'Task cancelled successfully.';
 	$failure_message = 'Unable to cancel this task.';
 	

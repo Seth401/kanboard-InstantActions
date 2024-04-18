@@ -9,7 +9,7 @@
 <?php endif ?>
 
 
-<form method="post" action="<?= $this->url->href('InstaSettingsController', 'save', array('plugin' => 'Instantactions', 'project_id' => $project['id'], 'redirect' => 'show')) ?>" autocomplete="off">
+<form method="post" action="<?= $this->url->href('InstaSettingsController', 'save', array('plugin' => 'InstantActions', 'project_id' => $project['id'], 'redirect' => 'show')) ?>" autocomplete="off">
     <?= $this->form->csrf() ?>
     <?= $this->form->hidden('id', $values) ?>
 
